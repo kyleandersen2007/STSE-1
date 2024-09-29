@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Spectrometry</title>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            /* Particle background stays behind */
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #242424;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.8;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .reference {
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            word-wrap: break-word;
+            color: white;
+        }
+
+        .figure {
+            margin: 20px 0;
+            color: #ffffff;
+        }
+
+        .figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .figure-caption {
+            text-align: center;
+            font-style: italic;
+            color: #ffffff;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #ffffff;
+            padding: 10px;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        th {
+            background-color: #444;
+        }
+
+        #word-count {
+            margin-top: 20px;
+            /* Reduced margin */
+            padding: 5px;
+            /* Reduced padding */
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            text-align: center;
+            color: #333;
+            font-size: 0.9em;
+            /* Smaller font size */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            ol {
+                padding-left: 20px;
+            }
+
+            a {
+                color: #007BFF;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Content Section for Research Paper -->
+    <h1>Mass Spectrometry</h1>
+    <div class="content">
+        <p>Mass spectrometry is an analytical technique that can determine the mass-to-charge ratio of ions. It is a
+            unique and powerful tool that can be used to identify unknown compounds, quantify known compounds, and
+            determine the structure and chemical properties of molecules. This technique has revolutionized fields like
+            pharmacology, environmental science, and forensic analysis, allowing researchers to study complex molecules
+            with amazing precision. Advances in technology have further broadened its applications, making mass
+            spectrometry an essential method in many scientific areas [1-2].</p>
+
+        <p>Mass spectrometers are the key to mass spectrometry as it is used to analyze molecules; it consists of three
+            parts: the ion source, where a small sample is ionized into cations by losing electrons; the mass analyzer,
+            where ions are separated based on their mass-to-charge ratio; and the detector, which measures the separated
+            ions and displays the results on a chart [6-9]. </p>
+
+        <div class="figure" style="text-align: center; margin: 20px 0;">
+            <figure>
+                <div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; display: inline-block;">
+                    <img src="massspectrometer.png">
+                </div>
+                <figcaption><strong>Figure 1.</strong> A full diagram of a mass spectrometer [13].</figcaption>
+            </figure>
+        </div>
+
+        <p>Before using a mass spectrometer, a sample must be prepared for ionization [2]. This preparation involves
+            converting the sample into either a liquid or gaseous phase, typically through chromatography techniques.
+            The two types of chromatography commonly used for this are gas chromatography and liquid chromatography.</p>
+
+        <p>After the sample is prepared, The first process of the mass spectrometer apparatus is the ionization of the
+            sample. This is accomplished by using a heated filament that has a charge of around 70 eV and bombarding the
+            molecules from the sample with high energy electrons, knocking out electrons from the molecule and creating
+            positively charged ions. This is a common method of ionization called electron impact ionization (EI) [2-3].
+        </p>
+
+        <p>After the sample is ionized, the positively charged ions are accelerated by an electric field, which ensures
+            they all have equal kinetic energy. Since the force applied depends on the ion's charge, ions of the same
+            charge gain the same kinetic energy, but their velocities differ depending on their mass [2].
+        </p>
+
+        <p>Deflection occurs after acceleration, where the ions are passed through a magnetic field which will deflect
+            cations based on their mass and charge. Mass and deflection are inversely proportional, while charge and
+            deflection are directly proportional. This means that ions with lower mass will experience greater
+            deflection in the apparatus. Similarly, ions with a higher positive charge will also be deflected more. As a
+            result, the apparatus can determine the mass-to-charge ratio based on these deflection principles [2]. </p>
+        <p>In the detection phase, the mass spectrometer detects positive ions while neutral ones are removed by a
+            vacuum. The most common detector, an electron multiplier, uses a series of dynodes with increasing
+            potentials. Electrons are released and attracted to subsequent dynodes when ions strike the initial dynode,
+            starting a cascade that can magnify the signal up to a million times. The amplified signal gives a highly
+            sensitive measurement of the ions detected [2]. </p>
+        <div class="figure" style="text-align: center; margin: 20px 0;">
+            <figure>
+                <div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; display: inline-block;">
+                    <img src="momasspec.png">
+                </div>
+                <figcaption><strong>Figure 2.</strong>Resulting Mass Spectra [13].</figcaption>
+            </figure>
+        </div>
+        <p>
+            Mass spectrometry generates data on the mass-to-charge ratio of ions in a compound, displayed on a graph
+            called a mass spectrum. A mass spectrum is usually presented as a vertical bar graph, in which each bar
+            represents an ion having a particular m/z ratio and the length of the bar represents the relative abundance
+            of that ion in the sample. The mass spectrum is crucial because it visually represents the distribution of
+            ions in a sample, allowing scientists to determine the molecular mass, composition, and structure of a
+            compound [2].
+        </p>
+
+        <p>Mass spectrometry is a highly versatile and powerful analytical technique with several advantages and a few
+            disadvantages. Among its advantages, mass spectrometry is applicable in various fields such as
+            pharmaceutical research, forensics, and the environment. It is a vital tool in the pharmaceutical industry,
+            as laboratories use it to identify the molecular formulas of pharmaceutical drugs [11]. Additionally, mass
+            spectrometry can determine whether a drug is safe for release, although the FDA requires multiple tests to
+            ensure that drugs are both safe and effective. Overall, mass spectrometry plays a crucial role in ensuring
+            the quality and safety of pharmaceutical products before they reach the market. In forensics, mass
+            spectrometry quantifies compounds found at crime scenes. For instance, scientists can analyze fabric
+            collected from a crime scene to identify and measure various substances. This powerful technique provides
+            critical evidence that can link suspects to crime scenes or uncover important details about the events that
+            took place. Mass spectrometry also has environmental advantages, as it can detect organic compounds and
+            contaminants at very low concentrations, enabling efficient monitoring and regulation of pollutants [11].
+        </p>
+
+        <p><strong>Table 1:</strong> Advantages and Disadvantages of Mass Spectroscopy.</p>
+        <div>
+            <img src="table.png">
+        </div>
+
+    <p>However, there are disadvantages: mass spectrometers are expensive, requiring investment in equipment and
+        maintenance. Mass spectrometers can range from 10,000 - 1,500,000 depending on the model [14]. Furthermore,
+        maintaining precision and accuracy demands extensive work, ultimately being very time-consuming and
+        resource-intensive. Finally, the operation of mass spectrometers also has environmental impacts, as they are
+        significant energy consumers as they require a lot of power for components in the mass spectrometer,
+        emitting greenhouse gasses [10-12].</p>
+
+    <p> Mass spectrometry can be improved in many ways. One way we could improve mass spectrometry is by using a
+        new, powerful technology: machine learning. By combining MS with machine learning algorithms for airborne
+        pathogen surveillance, we can potentially predict the emergence of new viruses before they occur, enhancing
+        our ability to prevent and respond to future pandemics [5]. Furthermore, mass spectroscopy is an expensive
+        technology that can be improved by being more affordable for lower end researchers, allowing them to
+        contribute and make advancements in the world of mass spectroscopy. Another new improvement for mass
+        spectrometry is a new development of trapped ion mobility (IM-MS) [4-5]. This technique combines mass
+        spectrometry with ion mobility, which distinguishes ionized molecules based on their motion through a gas.
+        This improvement could allow for the separation of molecules not only by mass, but also by size and shape,
+        which would improve the analyzing of complex proteins in living cells. When used alongside chromatography
+        and advanced software, IM-MS provides a powerful way to study and understand complex samples, such as those
+        in proteomics [7].</p>
+
+    <p>Mass Spectrometry is very effective for its intended purposes such as identifying compounds in complex
+        mixtures, analyzing the structure of molecules and detecting amounts of substances. However there are many
+        options and techniques that are useful such as chromatography, which is an alternative for analyzing large
+        volumes of samples that is cost effective. and emerging protein sequencing methods that offer direct
+        sequencing capabilities with improved sensitivity [9]. These other options are good, but mass spectrometry
+        is known for its powerful analytical tools and is the best option for analyzing molecular data in all
+        fields.
+    </p>
+    <div id="word-count">
+        Word Count: 998
+    </div>
+
+    <div class="reference">
+        <h1>Reference List</h1>
+        <ol>
+            <li>
+                Broad Institute. (2010, September 13). <i>What is mass spectrometry?</i> Retrieved from <a
+                    href="https://www.broadinstitute.org/technology-areas/what-mass-spectrometry">https://www.broadinstitute.org/technology-areas/what-mass-spectrometry</a>
+            </li>
+            <br>
+            <li>
+                Garg, E., & Zubair, M. (2024, January 21). Mass spectrometer. In <i>StatPearls [Internet]</i>.
+                Treasure
+                Island, FL: StatPearls Publishing. Retrieved from <a
+                    href="https://www.ncbi.nlm.nih.gov/books/NBK589702/">https://www.ncbi.nlm.nih.gov/books/NBK589702/</a>
+            </li>
+            <br>
+            <li>
+                Emory College of Arts and Science. (n.d.). <i>Mass spectrometry ionization methods.</i> Retrieved
+                from
+                <a
+                    href="https://chemistry.emory.edu/msc/tutorial/mass-spectrometry-ionization.html">https://chemistry.emory.edu/msc/tutorial/mass-spectrometry-ionization.html</a>
+            </li>
+            <br>
+            <li>
+                Li, C., Chu, S., Tan, S., Yin, X., Jiang, Y., Dai, X., Gong, X., Fang, X., & Tian, D. (2021).
+                Towards
+                higher sensitivity of mass spectrometry: A perspective from the mass analyzers. <i>Frontiers in
+                    Chemistry, 9</i>, Article 813359. Retrieved from <a
+                    href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8724130/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8724130/</a>
+            </li>
+            <br>
+            <li>
+                Muenz, R., Hanton, S. D., PhD, & Anderson, D., PhD. (2021, September 27). <i>Innovations in mass
+                    spectrometry.</i> Lab Manager. Retrieved from <a
+                    href="https://www.labmanager.com/innovations-in-mass-spectrometry-1-26753">https://www.labmanager.com/innovations-in-mass-spectrometry-1-26753</a>
+            </li>
+            <br>
+            <li>
+                Reusch, W. (n.d.). <i>Mass spectrometry.</i> Retrieved from <a
+                    href="https://www2.chemistry.msu.edu/faculty/reusch/VirtTxtjml/Spectrpy/MassSpec/masspec1.htm">https://www2.chemistry.msu.edu/faculty/reusch/VirtTxtjml/Spectrpy/MassSpec/masspec1.htm</a>
+            </li>
+            <br>
+            <li>
+                Technology Networks. (2024, September 10). <i>New mass spectrometry technology could transform tiny
+                    sample analysis.</i> Retrieved from <a
+                    href="https://www.technologynetworks.com/analysis/news/new-mass-spectrometry-technology-could-transform-tiny-sample-analysis-390757">https://www.technologynetworks.com/analysis/news/new-mass-spectrometry-technology-could-transform-tiny-sample-analysis-390757</a>
+            </li>
+            <br>
+            <li>
+                Yesavage, T. (2023, March 09). <i>Mass spectrometry for biomarker discovery: Pros and cons.</i>
+                Retrieved from <a
+                    href="https://www.biocompare.com/Editorial-Articles/594745-Mass-Spectrometry-for-Biomarker-Discovery-Pros-and-Cons/">https://www.biocompare.com/Editorial-Articles/594745-Mass-Spectrometry-for-Biomarker-Discovery-Pros-and-Cons/</a>
+            </li>
+            <br>
+            <li>
+                Libretexts. (2023, August 29). <i>How the mass spectrometer works.</i> Chemistry LibreTexts.
+                Retrieved
+                from <a
+                    href="https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Instrumentation_and_Analysis/Mass_Spectrometry/How_the_Mass_Spectrometer_Works">https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Instrumentation_and_Analysis/Mass_Spectrometry/How_the_Mass_Spectrometer_Works</a>
+            </li>
+            <br>
+            <li>
+                Kanda, R. (n.d.). <i>Mass spectrometry for environmental and wastewater monitoring.</i> Spectroscopy
+                Europe/World. Retrieved from <a
+                    href="https://www.spectroscopyeurope.com/article/mass-spectrometry-environmental-and-wastewater-monitoring">https://www.spectroscopyeurope.com/article/mass-spectrometry-environmental-and-wastewater-monitoring</a>
+            </li>
+            <br>
+            <li>
+                GenTech Scientific. (2023, October 30). <i>The many applications of mass spectrometry - GenTech
+                    Scientific.</i> Retrieved from <a
+                    href="https://gentechscientific.com/the-many-applications-of-mass-spectrometry/">https://gentechscientific.com/the-many-applications-of-mass-spectrometry/</a>
+            </li>
+            <br>
+            <li>
+                Thermo Fisher Scientific. (n.d.). <i>Environmental contaminant analysis.</i> Retrieved from <a
+                    href="https://www.thermofisher.com/ca/en/home/industrial/environmental/environmental-contaminant-analysis.html">https://www.thermofisher.com/ca/en/home/industrial/environmental/environmental-contaminant-analysis.html</a>
+            </li>
+            <br>
+            <li>
+                Libretexts. (2023b, August 29). <i>How the mass spectrometer works.</i> Chemistry LibreTexts.
+                Retrieved
+                from <a
+                    href="https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Instrumentation_and_Analysis/Mass_Spectrometry/How_the_Mass_Spectrometer_Works">https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Instrumentation_and_Analysis/Mass_Spectrometry/How_the_Mass_Spectrometer_Works</a>
+                (Figure 1) (Figure 2)
+            </li>
+            <br>
+            <li>
+                LabX. (n.d.). <i>Mass spectrometers for sale, new & used prices.</i> Retrieved from <a
+                    href="https://www.labx.com/categories/mass-spectrometer">https://www.labx.com/categories/mass-spectrometer</a>
+            </li>
+        </ol>
+    </div>
+    <div>
+
+    </div>
+
+    <!-- Particles.js Configuration -->
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                },
+                "opacity": {
+                    "value": 0.5,
+                },
+                "size": {
+                    "value": 1,
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3,
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+
+</html>
